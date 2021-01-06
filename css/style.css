@@ -1,7 +1,7 @@
 body {
   font-family:"Verdana";
   font-size: 20px;
-  background: url("red.jpg");
+/*  background: url("../pictures/red.jpg"); */
   background-size: cover;
 }
 
@@ -58,6 +58,12 @@ body {
 
 .loader > img {
   width: 100px
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: #555;
 }
 
 @keyframes fadeOut {
