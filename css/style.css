@@ -1,8 +1,99 @@
 body {
-  font-family:"Verdana";
+  font-family:"Tomorrow";
   font-size: 20px;
-/*  background: url("../pictures/red.jpg"); */
-  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color:green;
+}
+
+h3{
+  position: relative;
+  top: 10px;
+  margin-bottom: -10px;
+}
+
+ul li {
+  padding: 10px 0px;
+}
+
+#aboutme{
+  background: url("../pictures/about-me.jpg");
+}
+
+#projects{
+  background: url("../pictures/projects.jpg");
+}
+
+#contacts{
+  background: url("../pictures/contact.jpg");
+}
+
+#work{
+  background: url("../pictures/work.jpg");
+}
+#home{
+  background: url("../pictures/home.jpg");
+}
+
+#back{
+   position: absolute;
+   width:9%;
+   background: black;
+   right: 30px;
+   top: 30px;
+}
+
+#contact {
+  position: relative;
+  margin: auto;
+  width: 25%;
+  top: 650px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+#title{
+  text-align:center;
+}
+
+.aboutme, .background, .projects, .work {
+  background: black;
+  color: red;
+}
+
+ a{
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ a:hover{
+  opacity: 0.7;
+}
+
+
+.aboutme {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.background{
+  background: black;
+  position: relative;
+  width: 35vw;
+  color: green;
+  left: 80px;
+  border-radius: 20px;
+}
+
+.contact{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
 
 .fa-facebook, .fa-github, .fa-instagram, .fa-linkedin, .fa-youtube {
@@ -11,82 +102,31 @@ body {
   width: 30px;
   text-align: center;
   text-decoration: none;
-}
-
-.fa-facebook{
-  background: #3B5998;
   color: white;
 }
 
-.fa-github {
-  background: gray;
-  color: white;
-}
-
-.fa-instagram{
-  background: purple;
-  color: white;
-}
-
-.fa-linkedin{
-  background: blue;
-  color: white;
-}
-
-.fa-youtube{
-  background: red;
-  color: white;
-}
-
-.loader {
-  position: fixed;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader.hidden{
-  animation: fadeOut 1s;
-  animation-fill-mode: forwards;
-}
-
-.loader > img {
-  width: 100px
-}
-
-.square {
-  width: 20px;
-  height: 20px;
-  background-color: #555;
-}
-
-@keyframes fadeOut {
-  100%{
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-#social-media {
+.skills{
+  background: black;
   position: relative;
-  top: 15px;
-  float: left;
+  width: 35vw;
+  color: green;
+  left: 1168px;
+  top: 250px;
+  border-radius: 20px;
 }
 
-#social-media a:hover{
-  opacity: 0.7;
+.top{
+  height: 75px;
 }
 
-table, th, td {
-  border: 1px solid red;
+.projects {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
 
-table {
-
+.work {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
