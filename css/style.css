@@ -4,8 +4,11 @@ body {
 }
 
 h1{
-  text-align: center;
+  position: relative;
   color:green;
+  display:inline;
+  background-color: black;
+  top: 10px;
 }
 
 h3{
@@ -24,6 +27,7 @@ ul li {
 
 #projects{
   background: url("../pictures/projects.jpg");
+  color: orange;
 }
 
 #contacts{
@@ -36,10 +40,13 @@ ul li {
 #home{
   background: url("../pictures/home.jpg");
 }
+#nutrition ul, #nutrition h3{
+  background: black;
+}
 
 #back{
    position: absolute;
-   width:9%;
+   width:12.5%;
    background: black;
    right: 30px;
    top: 30px;
@@ -83,11 +90,11 @@ ul li {
 
 .background{
   background: black;
-  position: relative;
-  width: 35vw;
+  position: absolute;
   color: green;
-  left: 80px;
   border-radius: 20px;
+  left: 20px;
+  width: 45%
 }
 
 .contact{
@@ -107,16 +114,17 @@ ul li {
 
 .skills{
   background: black;
-  position: relative;
-  width: 35vw;
+  position: absolute;
   color: green;
-  left: 1168px;
-  top: 250px;
   border-radius: 20px;
+  bottom: 50px;
+  right : 20px;
+  width: 45%;
 }
 
 .top{
   height: 75px;
+  text-align: center;
 }
 
 .projects {
